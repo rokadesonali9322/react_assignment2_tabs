@@ -1,0 +1,55 @@
+.container h2 {
+  color: #293755;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.container p {
+  display: block;
+  margin: 0 auto;
+  word-spacing: 3px;
+  max-width: 33rem;
+  line-height: 20px;
+  font-size: 15px;
+  color: #6f6f70;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 13px;
+}
+.tab-btn .active {
+  text-transform: capitalize;
+  color: rgb(224, 221, 221);
+  border-radius: 30px;
+  margin: 0 0.5rem;
+  background-color: #3235ef;
+}
+.tab-btn .incative {
+  background-color: #ececfb;
+  margin: 0 0.5rem;
+  color: black;
+  border-radius: 30px;
+  background-color: white;
+}
+.view_All {
+  position: relative;
+}
+.view_All button {
+  text-transform: capitalize;
+  width: 8rem;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #4e51e7;
+  padding: 8px 0;
+  border: 1px solid #3235ef;
+  background-color: #f5f5fe;
+}
+.view_All span {
+  position: absolute;
+  bottom: 2;
+  right: 0;
+  padding-top: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

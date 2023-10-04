@@ -1,0 +1,119 @@
+.maincard {
+  padding: 1rem 8rem;
+}
+.card {
+  width: 20rem;
+  /* height: 50vh; */
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+.img-btn .love {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  padding: 3px;
+  background-color: #daeafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 11.5rem;
+}
+.img-btn button {
+  background-color: white;
+  color: #4899ec;
+  border: none;
+  outline: none;
+  width: 4.5rem;
+}
+
+.card-title {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+.card .title span {
+  color: #6c778a;
+  font-size: 13px;
+}
+.card .room_icon h6 {
+  color: #556078;
+}
+.card .card-title h6 {
+  color: #595a59;
+}
+.card img {
+  width: 100%;
+  height: 26vh;
+  border-radius: 10px !important;
+}
+
+.card .title h6 {
+  font-size: 15px;
+}
+.card .icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .ratenow {
+  display: flex;
+  justify-content: space-between;
+}
+.img-btn {
+  position: absolute;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ratenow h6 {
+  color: #5659e8;
+}
+.ratenow span {
+  font-size: 14px;
+  color: #484848;
+}
+.img-btn button,
+.ratenow button {
+  border-radius: 15px;
+  height: 3.5vh;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.ratenow button {
+  color: white;
+  background-color: #4899ec;
+}
+.ratenow button:hover {
+  color: white;
+}
+/* card proprty */
+.cardProp {
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardProp .back {
+  background-color: #3538dc;
+  padding: 5px 1.5rem;
+  color: white;
+  margin-top: 8px;
+  margin-left: 15rem;
+}
+
+/* show more */
+
+.show_more_btn {
+  width: 10rem;
+  display: block;
+  margin: 1rem auto;
+  background-color: #3538db;
+  color: white;
+}
+.show_more_btn:hover {
+  color: white;
+}
